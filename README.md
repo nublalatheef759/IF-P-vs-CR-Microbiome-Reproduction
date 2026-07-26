@@ -111,7 +111,7 @@ graph LR
    - Truncate: 240bp (quality threshold)
 2. **Taxonomy Classification:** SILVA 138 database with V4-trained classifier
 3. **Phylogenetic Tree:** SEPP fragment insertion
-4. **Rarefaction:** Normalize to 6,500 reads/sample
+4. **Rarefaction:** Normalise to 6,500 reads/sample
 
 ### Stage 3: Diversity & Export
 
@@ -229,14 +229,9 @@ ps <- phyloseq(
 
 All team members contributed equally to:
 - QIIME2 pipeline development and execution
-- R statistical analysis and visualization
+- R statistical analysis and visualisation
 - Machine learning validation
 - Documentation and presentation
-
-**Presentation Sections:**
-- **Rayane Baroudi:** Introduction
-- **Nubla Latheef:** Pipeline Demo
-- **Farah Malwan:** Results & Discussion
 
 ---
 
