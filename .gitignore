@@ -1,118 +1,46 @@
-# ============================================
-# IF-P vs CR Microbiome Reproduction Project
-# .gitignore
-# ============================================
-
-# ============================================
-# LARGE DATA FILES (Must ignore!)
-# ============================================
-
-# Raw FASTQ files (too large for GitHub)
+# Raw sequencing data
 fastq_files/
 *.fastq
 *.fastq.gz
 *.fq
 *.fq.gz
 
-# QIIME2 artifacts (large binary files)
+# QIIME2 artifacts and reference databases
 *.qza
 *.qzv
+silva_training/
+reference_data/
+sepp-refs-*.qza
 
-# Temporary files
-tmp/
-*.tmp
-
-# ============================================
-# HPC/SLURM FILES
-# ============================================
+# HPC job output
 slurm-*.out
 slurm-*.stats
 *.log
 logs/
 
-# ============================================
-# LARGE REFERENCE DATABASES
-# ============================================
-silva_training/
-reference_data/
-*classifier*.qza
-sepp-refs-*.qza
-
-# ============================================
-# QIIME2 RESULTS (large files)
-# ============================================
-# Uncomment if qiime2_results is too large
-# qiime2_results/
-
-# Keep these subdirectories if small:
-# qiime2_results/exported-for-R/  <- KEEP (small TSV files)
-
-# ============================================
-# QUALITY CONTROL OUTPUTS
-# ============================================
-# Uncomment if qc_results is too large
-# qc_results/
-
-# ============================================
-# SYSTEM FILES
-# ============================================
-.DS_Store
-Thumbs.db
-desktop.ini
-*.swp
-*.swo
+# Temporary and backup files
+tmp/
+*.tmp
+*.bak
+*.old
 *~
 
-# ============================================
-# R/RSTUDIO FILES
-# ============================================
+# R
 .Rhistory
 .RData
 .Rproj.user/
-*.Rproj
 
-# ============================================
-# PYTHON FILES
-# ============================================
+# Python
 __pycache__/
 *.pyc
-*.pyo
 .ipynb_checkpoints/
 .env
 venv/
-*.egg-info/
 
-# ============================================
-# IDE FILES
-# ============================================
+# System and editor
+.DS_Store
+Thumbs.db
 .idea/
 .vscode/
-*.code-workspace
-
-# ============================================
-# BACKUP FILES
-# ============================================
-*.bak
-*.backup
-*.old
-
-# ============================================
-# LARGE EXPORTS (uncomment if needed)
-# ============================================
-# diversity-results/
-# exported-for-R/*.biom
-# *.biom
-
-# ============================================
-# KEEP THESE FILES (for reference)
-# ============================================
-# ✅ All .sh scripts
-# ✅ All .tsv metadata files (small)
-# ✅ All .txt files (small)
-# ✅ README.md
-# ✅ .gitignore
-# ✅ R scripts (.R)
-# ✅ Documentation (.md)
-# ✅ Small result files
-# ✅ Figures (.png, .pdf)
+*.swp
 
