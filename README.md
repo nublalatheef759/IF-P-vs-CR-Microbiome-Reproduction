@@ -33,6 +33,7 @@ The original study compared two calorie-matched dietary interventions over 8 wee
 ## 📁 Repository Structure
 
 ```
+```
 IF-P-vs-CR-Microbiome-Reproduction/
 │
 ├── scripts/
@@ -46,8 +47,7 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │   │   ├── qiime2_sepp.sh              # Phylogenetic tree (SEPP)
 │   │   ├── qiime2_tree.sh              # Alternative tree building
 │   │   ├── qiime2_alpha.sh             # Alpha diversity analysis
-│   │   ├── taxa_collapse.sh            # Collapse taxa at different levels
-│   │   └── export_for_R.sh             # Export data for R analysis
+│   │   └── taxa_collapse.sh            # Collapse taxa at different levels
 │   │
 │   └── R/                              # R analysis scripts
 │       ├── figure_generation.R         # Generate publication figures
@@ -61,7 +61,10 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │   ├── ena_file_info.tsv               # ENA file information
 │   ├── checksums.md5                   # File integrity checksums
 │   ├── SRR_Acc_List.txt                # SRA accession numbers
-│   └── common_samples_with_header.txt  # Sample filtering list
+│   ├── common_samples_with_header.txt  # Sample filtering list
+│   ├── common_samples.txt              # Common sample IDs
+│   ├── download_urls.txt               # ENA download URLs
+│   └── srr_sorted.txt                  # Sorted SRR accessions
 │
 ├── results/
 │   └── figures/                        # Generated figures
@@ -70,7 +73,7 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │   └── pipeline_workflow.md            # Detailed workflow documentation
 │
 ├── .gitignore                          # Git ignore rules
-└── README.md                           # This file
+└── README.md                           # Project documentation
 ```
 
 ---
