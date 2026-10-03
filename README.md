@@ -33,7 +33,6 @@ The original study compared two calorie-matched dietary interventions over 8 wee
 ## 📁 Repository Structure
 
 ```
-```
 IF-P-vs-CR-Microbiome-Reproduction/
 │
 ├── scripts/
