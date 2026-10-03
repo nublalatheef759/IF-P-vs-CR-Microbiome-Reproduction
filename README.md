@@ -56,15 +56,7 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │
 ├── metadata/
 │   ├── metadata.tsv                    # Original sample metadata
-│   ├── metadata_merged.tsv             # Merged with ENA data
-│   ├── metadata_merged_qiime_FINAL.tsv # QIIME2-formatted final metadata
-│   ├── ena_file_info.tsv               # ENA file information
-│   ├── checksums.md5                   # File integrity checksums
 │   ├── SRR_Acc_List.txt                # SRA accession numbers
-│   ├── common_samples_with_header.txt  # Sample filtering list
-│   ├── common_samples.txt              # Common sample IDs
-│   ├── download_urls.txt               # ENA download URLs
-│   └── srr_sorted.txt                  # Sorted SRR accessions
 │
 ├── results/
 │   └── figures/                        # Generated figures
