@@ -181,24 +181,43 @@ sbatch scripts/bash/export_for_R.sh      # Day 5: Export for R
 ### R Analysis
 
 ```r
-# Figure Generation (Figure 1f, 1g, 1h)
-# Requires: exported_for_R/ directory with faith_pd.tsv, bray_curtis_distance.tsv, 
-#           feature_table.tsv, taxonomy.tsv, and metadata.tsv
+# Figure Generation (Figure 1f, 1g)
+# Requires: phyloseq_object.rds
 source("scripts/R/figure_generation.R")
+
+# Beneficial Bacteria Analysis
+# Requires: phyloseq_object.rds
+source("scripts/R/beneficial_bacteria.R")
+
+# Beta Diversity Trajectories
+# Requires: phyloseq_object.rds
+source("scripts/R/beta_trajectory.R")
 
 # Machine Learning (Random Forest)
 # Requires: phyloseq_object.rds
 source("scripts/R/machine_learning.R")
 ```
 
-**Output Figures:**
-- `Figure_1f_FaithPD.pdf/png` - Alpha diversity boxplot
+**Reproduced from Paper:**
+- `Figure_1f_FaithPD.pdf/png` - Alpha diversity over time
 - `Figure_1g_beta_diversity.pdf/png` - PCoA with 95% confidence ellipses
-- `Figure_1h_taxa_barplot.pdf/png` - Top 10 genera relative abundance
-- `Beta_Trajectory_PCoA.pdf/png` - PCoA with individual trajectories (WK0→WK4→WK8)
-- `RF_Top10Features.pdf/png` - Random Forest feature importance
-- `BeneficialBacteria_Boxplot.pdf/png` - Christensenellaceae/Rikenellaceae/Ruminococcaceae with p-values
 
+**Original Analyses (Supporting Same Conclusions):**
+- `Beta_Trajectory_PCoA.pdf/png` - PCoA with individual trajectories (WK0→WK4→WK8)
+- `BeneficialBacteria_Boxplot.pdf/png` - Christensenellaceae/Rikenellaceae/Ruminococcaceae with p-values
+- `RF_Top10Features.pdf/png` - Random Forest feature importance
+
+
+### Figures
+
+**Reproduced from Paper:**
+- Figure 1f: Alpha diversity (Faith's PD) over time
+- Figure 1g: Beta diversity PCoA with PERMANOVA
+
+**Original Analyses (Supporting Same Conclusions):**
+- Beta Trajectory PCoA: Individual sample trajectories showing divergence
+- Beneficial Bacteria Boxplots: Christensenellaceae/Rikenellaceae/Ruminococcaceae with statistical tests
+- Random Forest: Top 10 discriminating features between IF-P and CR
 ---
 
 ## 📊 Key Results
