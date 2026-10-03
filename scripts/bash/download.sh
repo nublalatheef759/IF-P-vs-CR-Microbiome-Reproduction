@@ -1,5 +1,4 @@
-#!/bin/sh
-cd /rds/projects/e/elhamsak-group6/
+#!/bin/bash
 #SBATCH --job-name=microbiome_dl
 #SBATCH --time=00:30:00
 #SBATCH --cpus-per-task=8
