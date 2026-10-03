@@ -14,7 +14,6 @@ echo "=== FastQC Started: $(date) ==="
 echo "Job ID: $SLURM_JOB_ID"
 echo "Running on: $(hostname)"
 
-cd /rds/projects/e/elhamsak-group6 || exit 1
 
 mkdir -p qc_results/fastqc
 mkdir -p logs

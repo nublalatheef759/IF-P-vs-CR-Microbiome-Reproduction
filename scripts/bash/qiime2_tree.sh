@@ -16,7 +16,6 @@ export TMPDIR=/rds/projects/e/elhamsak-group6/tmp
 export TEMP=$TMPDIR
 export TMP=$TMPDIR
 
-cd /rds/projects/e/elhamsak-group6/qiime2_results || exit 1
 mkdir -p logs
 
 #####################################

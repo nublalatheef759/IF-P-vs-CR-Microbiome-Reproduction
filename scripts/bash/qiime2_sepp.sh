@@ -14,7 +14,6 @@ module purge
 module load bear-apps/2023a
 module load QIIME2/2025.4
 
-cd /rds/projects/e/elhamsak-group6/qiime2_results || exit 1
 mkdir -p logs
 
 #####################################

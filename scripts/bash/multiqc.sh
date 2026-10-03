@@ -11,7 +11,6 @@ module load MultiQC/1.32-foss-2024a
 
 echo "=== MultiQC Started: $(date) ==="
 
-cd /rds/projects/e/elhamsak-group6 || exit 1
 
 multiqc qc_results/fastqc \
   -o qc_results \

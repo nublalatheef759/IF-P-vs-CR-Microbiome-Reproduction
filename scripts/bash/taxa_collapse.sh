@@ -17,7 +17,6 @@ module load bear-apps/2023a
 module load QIIME2/2025.4
 
 # Navigate to results directory
-cd /rds/projects/e/elhamsak-group6/qiime2_results || exit 1
 
 # Check input files exist
 echo "Checking input files..."

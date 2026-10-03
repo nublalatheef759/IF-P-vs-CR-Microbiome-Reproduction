@@ -34,7 +34,6 @@ qiime --version
 #####################################
 # 2. Move to QIIME2 results directory
 #####################################
-cd /rds/projects/e/elhamsak-group6/qiime2_results || exit 1
 mkdir -p logs
 
 #####################################
