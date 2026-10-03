@@ -159,10 +159,6 @@ install.packages(c("randomForest", "caret"))
 
 ### Running the QIIME2 Pipeline
 
-```bash
-# Navigate to project directory
-cd /rds/projects/e/elhamsak-group6
-
 # Load QIIME2 module
 module purge
 module load bear-apps/2023a
