@@ -67,9 +67,6 @@ IF-P-vs-CR-Microbiome-Reproduction/
 ├── results/
 │   └── figures/                        # Generated figures
 │
-├── docs/
-│   └── pipeline_workflow.md            # Detailed workflow documentation
-│
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # Project documentation
 ```
