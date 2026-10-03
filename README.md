@@ -1,7 +1,9 @@
 # IF-P vs CR Microbiome Reproduction Study
 
 [![QIIME2](https://img.shields.io/badge/QIIME2-2025.4-blue)](https://qiime2.org/)
-[![R](https://img.shields.io/badge/R-4.0+-green)](https://www.r-project.org/)
+[![R](https://img.shields.io/badge/R-≥4.3-blue)](https://www.r-project.org/)
+[![Microbiome](https://img.shields.io/badge/Microbiome-Gut-orange)](https://en.wikipedia.org/wiki/Gut_microbiota)
+[![Random Forest](https://img.shields.io/badge/ML-Random_Forest-red)](https://cran.r-project.org/package=randomForest)
 [![License](https://img.shields.io/badge/License-Educational-yellow)](LICENSE)
 
 ## 📋 Overview
