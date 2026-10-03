@@ -49,7 +49,7 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │   │   └── taxa_collapse.sh            # Collapse taxa at different levels
 │   │
 │   └── R/                              # R analysis scripts
-│       ├── figure_generation.R         # Figures 1f (Faith's PD), 1g (PCoA), 1h (Taxa barplot)
+│       ├── figure_generation.R         # Figures 1f (Faith's PD), 1g (PCoA)
 │       ├── beneficial_bacteria.R       # Christensenellaceae/Rikenellaceae/Ruminococcaceae boxplots
 │       ├── beta_trajectory.R           # PCoA with individual trajectories over time
 │       └── machine_learning.R          # Random Forest classification (Top 10 features)
