@@ -68,9 +68,11 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │
 ├── results/
 │   └── figures/                        # Generated figures
-│
-├── docs/
-│   └── pipeline_workflow.md            # Detailed workflow documentation
+│       ├── Figure_1f_FaithPD.png
+│       ├── Figure_1g_beta_diversity.png
+│       ├── Beta_Trajectory_PCoA.png
+│       ├── BeneficialBacteria_Boxplot.png
+│       └── RF_Top10Features.png
 │
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # Project documentation
