@@ -50,6 +50,8 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │   │
 │   └── R/                              # R analysis scripts
 │       ├── figure_generation.R         # Figures 1f (Faith's PD), 1g (PCoA), 1h (Taxa barplot)
+│       ├── beneficial_bacteria.R       # Christensenellaceae/Rikenellaceae/Ruminococcaceae boxplots
+│       ├── beta_trajectory.R           # PCoA with individual trajectories over time
 │       └── machine_learning.R          # Random Forest classification (Top 10 features)
 │
 ├── metadata/
@@ -66,6 +68,9 @@ IF-P-vs-CR-Microbiome-Reproduction/
 │
 ├── results/
 │   └── figures/                        # Generated figures
+│
+├── docs/
+│   └── pipeline_workflow.md            # Detailed workflow documentation
 │
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # Project documentation
@@ -196,7 +201,9 @@ source("scripts/R/machine_learning.R")
 - `Figure_1f_FaithPD.pdf/png` - Alpha diversity boxplot
 - `Figure_1g_beta_diversity.pdf/png` - PCoA with 95% confidence ellipses
 - `Figure_1h_taxa_barplot.pdf/png` - Top 10 genera relative abundance
+- `Beta_Trajectory_PCoA.pdf/png` - PCoA with individual trajectories (WK0→WK4→WK8)
 - `RF_Top10Features.pdf/png` - Random Forest feature importance
+- `BeneficialBacteria_Boxplot.pdf/png` - Christensenellaceae/Rikenellaceae/Ruminococcaceae with p-values
 
 ---
 
