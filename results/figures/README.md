@@ -15,7 +15,8 @@ This folder contains output figures from the R analysis scripts.
 ## Regenerating Figures
 
 ```r
-source("scripts/R/figure_generation.R")
+source("scripts/R/figure_1e_alpha.R")
+source("scripts/R/figure_1g_beta.R")
 source("scripts/R/beta_trajectory.R")
 source("scripts/R/machine_learning.R")
 source("scripts/R/beneficial_bacteria.R")
