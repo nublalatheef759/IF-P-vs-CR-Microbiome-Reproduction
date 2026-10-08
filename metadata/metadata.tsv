@@ -1,4 +1,4 @@
-sample-id	subject	PP_HH	Group	Time	Time_num	Race	BMI	BMI_Class	Sex	Age	fecal_WT_g	BSS	pH	biomass	Acetate_mMol/g	Propionate_mMol/g	Isobutyrate_mMol/g	Butyrate_mMol/g	Valerate_mMol/g
+sample-id	subject	PP_HH	Group	Time	Time_num	Visit	Race	BMI	BMI_Class	Sex	Age	fecal_WT_g	BSS	pH	biomass	Acetate_mMol/g	Propionate_mMol/g	Isobutyrate_mMol/g	Butyrate_mMol/g
 SRR19621234	SM01_01	SM1	IF-P	PP_1	WK0	1	White	28.1	Overweight	Male	53	100.57	4	6.783333333	7.39955E+11	0.122505398	0.00906207	0.234309003	0.010681031
 SRR19621233	SM01_02	SM1	IF-P	PP_1	WK4	2	White	28.1	Overweight	Male	53	165.81	4	7.013333333	7.61966E+11	0.141066331	0.011143786	0.141645993	0.009669163
 SRR19621202	SM01_03	SM1	IF-P	PP_1	WK8	3	White	28.1	Overweight	Male	53	55.76	2	6.723333333	5.53805E+11	0.092467293	0.006658529	0.12096958	0.00617894
