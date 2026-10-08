@@ -180,9 +180,13 @@ sbatch scripts/bash/export_for_R.sh      # Day 5: Export for R
 ### R Analysis
 
 ```r
-# Figure Generation (Figure 1f, 1g)
-# Requires: phyloseq_object.rds
-source("scripts/R/figure_generation.R")
+# Figure 1e: Alpha Diversity (Observed ASVs)
+# Requires: metadata_merged_qiime_FINAL.tsv, alpha-observed.tsv
+source("scripts/R/figure_1e_alpha.R")
+
+# Figure 1g: Beta Diversity (Bray-Curtis from baseline)
+# Requires: distance-matrix.tsv, metadata_merged.tsv
+source("scripts/R/figure_1g_beta.R")
 
 # Beneficial Bacteria Analysis
 # Requires: phyloseq_object.rds
@@ -198,26 +202,14 @@ source("scripts/R/machine_learning.R")
 ```
 
 **Reproduced from Paper:**
-- `Figure_1f_FaithPD.pdf/png` - Alpha diversity over time
+- `Figure_1e_alpha_diversity.pdf/png` - Alpha diversity over time
 - `Figure_1g_beta_diversity.pdf/png` - PCoA with 95% confidence ellipses
 
 **Original Analyses (Supporting Same Conclusions):**
 - `Beta_Trajectory_PCoA.pdf/png` - PCoA with individual trajectories (WK0→WK4→WK8)
 - `BeneficialBacteria_Boxplot.pdf/png` - Christensenellaceae/Rikenellaceae/Ruminococcaceae with p-values
 - `RF_Top10Features.pdf/png` - Random Forest feature importance
-
-
-### Figures
-
-**Reproduced from Paper:**
-- Figure 1f: Alpha diversity (Faith's PD) over time
-- Figure 1g: Beta diversity PCoA with PERMANOVA
-
-**Original Analyses (Supporting Same Conclusions):**
-- Beta Trajectory PCoA: Individual sample trajectories showing divergence
-- Beneficial Bacteria Boxplots: Christensenellaceae/Rikenellaceae/Ruminococcaceae with statistical tests
-- Random Forest: Top 10 discriminating features between IF-P and CR
----
+```
 
 ## 📊 Key Results
 
