@@ -12,9 +12,11 @@ module purge
 module load bear-apps/2023a
 module load QIIME2/2025.4
 
-export TMPDIR=/rds/projects/e/elhamsak-group6/tmp
-export TEMP=$TMPDIR
-export TMP=$TMPDIR
+# Use project tmp dir if set, otherwise create local tmp
+export TMPDIR="${TMPDIR:-$(pwd)/tmp}"
+export TEMP="$TMPDIR"
+export TMP="$TMPDIR"
+mkdir -p "$TMPDIR"
 
 mkdir -p logs
 
